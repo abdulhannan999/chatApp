@@ -1,0 +1,25 @@
+/* Auth.css */
+.auth {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .btn-interactive {
+    padding: 10px 20px; /* More padding for a better click area */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+  }
+  
+  /* Hover and active states */
+  .btn-interactive:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+  }
+  
+  .btn-interactive:active {
+    transform: translateY(0); /* Return to original position on click */
+  }
+  
